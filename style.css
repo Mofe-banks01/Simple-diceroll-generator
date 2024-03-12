@@ -1,0 +1,37 @@
+body {
+  margin: 0 auto;
+  max-width: 165rem;
+  padding: 0 0.15rem;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+.hidden {
+  display: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+img {
+  width: 85px;
+  height: 85px;
+}
+.dice--roll {
+  padding: 10px 25px;
+  border-radius: 8px;
+  outline: none;
+  background: black;
+  color: white;
+}
+.reset--btn {
+  padding: 10px 25px;
+  border-radius: qurpx;
+  outline: none;
+  background: black;
+  color: white;
+}
